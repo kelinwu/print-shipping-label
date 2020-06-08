@@ -6,7 +6,7 @@ import Button from '@material-ui/core/Button';
 import "react-step-progress-bar/styles.css";
 import { ProgressBar } from "react-step-progress-bar";
 
-export class FormUserDetails extends Component {
+export class GetReceieverAddress extends Component {
     continue = e => {
         e.preventDefault();
         this.props.nextStep();
@@ -96,4 +96,4 @@ export class FormUserDetails extends Component {
     }
 }
 
-export default FormUserDetails;
+export default GetReceieverAddress;
